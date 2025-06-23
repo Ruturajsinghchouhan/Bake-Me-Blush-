@@ -1,0 +1,65 @@
+/* MyOrders.css */
+
+.my-orders-wrapper {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff5f8;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  font-family: 'Poppins', sans-serif;
+}
+
+.my-orders-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #d63384;
+  font-weight: 600;
+}
+
+.error-text {
+  text-align: center;
+  color: red;
+  font-weight: 500;
+}
+
+.my-orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.my-orders-table th,
+.my-orders-table td {
+  padding: 14px 18px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.my-orders-table thead {
+  background-color: #ffe0ec;
+  color: #8e024f;
+}
+
+.my-orders-table tbody tr:nth-child(even) {
+  background-color: #fff0f5;
+}
+
+.my-orders-table tbody tr:hover {
+  background-color: #ffe6f0;
+  transition: 0.3s ease;
+}
+
+.status-delivered {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.status-pending {
+  color: #ffc107;
+  font-weight: bold;
+}
